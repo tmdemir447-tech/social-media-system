@@ -62,6 +62,36 @@ Kaçınılacak:
 
 `outputs/2026-09/week-01/POST-001-reel.md`
 
+Üretilen somut tasarım dosyaları ayrıca:
+
+`outputs/YYYY-MM/week-XX/designs/`
+
+altında tutulmalıdır.
+
+Her tasarım için mümkünse hem kaynak/vektör dosyası hem de Canva Magic Layers için kullanılabilecek PNG önizleme üretilmelidir.
+
+## Canva Senkron Kuralı
+
+Her yeni somut tasarım oluşturulduğunda GitHub kaydı ile aynı üretim akışında Canva'ya da aktarılmalıdır.
+
+Canva klasör yapısı:
+
+`ACA / <Ay Adı> <YYYY> İçerikleri`
+
+Örnek:
+
+`ACA / Eylül 2026 İçerikleri`
+
+Kurallar:
+
+- Her `POST-XXX` tasarımı Canva'da ayrı bir design olmalıdır; birden fazla post tek kolaj veya tek sayfada birleştirilmemelidir.
+- Reel cover, carousel cover/slide ve static post ayrı tasarım dosyaları olarak tutulmalıdır.
+- Tasarım PNG/JPEG gibi düz görselse Canva Magic Layers / image-to-design kullanılarak mümkün olduğunca düzenlenebilir katmanlara ayrılmalıdır.
+- Canva tasarım başlığı `POST-XXX — Format — Kısa Konu` biçiminde olmalıdır.
+- Aynı başlık veya aynı POST için Canva'da mevcut tasarım varsa gereksiz kopya oluşturma; mevcut tasarımı kontrol et.
+- İlgili ay klasörü yoksa `ACA` altında otomatik oluştur.
+- Canva bağlantısı geçici olarak kullanılamıyorsa GitHub üretimini durdurma; eksik Canva senkronunu sonraki çalışmada tamamla.
+
 ## Revizyon Kuralı
 
 Kullanıcı revizyon istediğinde yeni bağımsız içerik oluşturmak yerine mevcut POST dosyası güncellenmelidir.
